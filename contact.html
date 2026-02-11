@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>اتصل الآن | أبو محمد لتأجير المعدات</title>
+  <meta name="description" content="تواصل الآن مع أبو محمد لتأجير الرافعات الشوكية والكرينات والمعدات الثقيلة والخفيفة. الرياض وتغطية المملكة." />
+  <link rel="icon" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="rtl">
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-text">📍 الرياض — ونغطي جميع أنحاء المملكة</div>
+      <div class="topbar-actions">
+<a class="chip" href="tel:0555185579">📞 اتصال سريع</a>
+
+<a class="chip chip-whatsapp"
+   href="https://wa.me/966554884260"
+   target="_blank"
+   rel="noopener">
+   💬 واتساب
+</a>
+
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="شعار أبو محمد" />
+        <div class="brand-text">
+          <strong>أبو محمد</strong>
+          <span>تأجير فوركلفت · كرينات · معدات ثقيلة وخفيفة</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="القائمة الرئيسية">
+        <a class="nav-link" href="index.html">الرئيسية</a>
+        <a class="nav-link" href="about.html">من نحن</a>
+        <a class="nav-link" href="services.html">خدماتنا</a>
+        <a class="nav-link active btn btn-primary" href="contact.html">اتصل الآن</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-inner reveal">
+        <span class="kicker">اتصل الآن</span>
+        <h1>أرسل طلبك… وسنجهز لك أفضل عرض بسرعة</h1>
+        <p class="lead">فورم واتساب جاهز + خريطة الموقع. (الرياض — تغطية المملكة)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2">
+        <div class="card reveal">
+          <h2>فورم واتساب</h2>
+          <p class="muted">
+            اكتب البيانات الأساسية (الخدمة + المدينة + المدة + تفاصيل بسيطة)، وسيتم فتح واتساب برسالة جاهزة.
+          </p>
+
+          <form id="waForm" class="form">
+            <div class="field">
+              <label>الاسم</label>
+              <input type="text" name="name" placeholder="اكتب اسمك" required />
+            </div>
+
+            <div class="field">
+              <label>رقم التواصل (اختياري)</label>
+              <input type="tel" name="phone" placeholder="05xxxxxxxx" />
+            </div>
+
+            <div class="field">
+              <label>المدينة</label>
+              <input type="text" name="city" placeholder="مثال: الرياض" required />
+            </div>
+
+            <div class="field">
+              <label>نوع الخدمة</label>
+              <select name="service" required>
+                <option value="" disabled selected>اختر الخدمة</option>
+                <option>تأجير رافعات شوكية Forklifts</option>
+                <option>كرينات ونش Boom Truck</option>
+                <option>سيزر ليفت Scissor Lift</option>
+                <option>مان لفت Manlift</option>
+                <option>بوبكات Bobcat</option>
+                <option>جي سي بي مرلو</option>
+                <option>جي سي بي عرجاء</option>
+                <option>رافعات يدوية Manual Lifts</option>
+                <option>عمالة يدوية</option>
+                <option>رافعات عمال</option>
+                <option>سطحه ونش</option>
+                <option>سطحه لنقل السيارات والمركبات</option>
+                <option>تأجير مشاوير</option>
+                <option>تأجير يومي</option>
+                <option>تأجير شهري</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>المدة المطلوبة</label>
+              <input type="text" name="duration" placeholder="مثال: يوم / أسبوع / شهر" required />
+            </div>
+
+            <div class="field">
+              <label>تفاصيل الطلب</label>
+              <textarea name="details" rows="4" placeholder="الموقع/الحي، الحمولة/الارتفاع، وقت التنفيذ..."></textarea>
+            </div>
+
+            <button class="btn btn-primary w-100" type="submit">إرسال الطلب على واتساب</button>
+
+            <div class="mini-actions">
+              <a class="btn btn-ghost w-100" data-phone href="#">اتصال مباشر</a>
+            </div>
+
+            <small class="hint">ملاحظة: سيتم تحويلك لواتساب برسالة جاهزة.</small>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <div class="map-card">
+            <h2>الخريطة</h2>
+            <p class="muted">موقعنا في الرياض — ونغطي جميع أنحاء المملكة.</p>
+
+            <div class="map">
+              <iframe
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Riyadh%20Saudi%20Arabia&output=embed">
+              </iframe>
+            </div>
+
+            <div class="info-grid">
+              <div class="info-box">
+                <strong>النطاق</strong>
+                <span>الرياض + جميع مناطق المملكة</span>
+              </div>
+              <div class="info-box">
+                <strong>التأجير</strong>
+                <span>مشاوير · يومي · شهري</span>
+              </div>
+              <div class="info-box">
+                <strong>الخدمات</strong>
+                <span>معدات ثقيلة وخفيفة + نقل</span>
+              </div>
+              <div class="info-box">
+                <strong>الشعار</strong>
+                <span>اتصل نصل</span>
+              </div>
+            </div>
+
+            <div class="cta-band mt-4">
+              <div>
+                <h3>جاهزين الآن</h3>
+                <p>لو عندك طلب مستعجل، تواصل واتساب وسنرد عليك فورًا.</p>
+              </div>
+              <div class="cta-actions">
+                <a class="btn btn-primary" data-wa href="#" target="_blank" rel="noopener">واتساب</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="assets/img/logo.png" alt="شعار أبو محمد" />
+          <div>
+            <strong>أبو محمد</strong>
+            <span>تأجير فوركلفت · كرينات · معدات ثقيلة وخفيفة</span>
+          </div>
+        </div>
+        <p class="muted">معدات جديدة وموديلات حديثة وبأقل الأسعار — الرياض وتغطية المملكة</p>
+      </div>
+
+      <div class="footer-col">
+        <strong>روابط</strong>
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">من نحن</a>
+        <a href="services.html">خدماتنا</a>
+      </div>
+
+      <div class="footer-col">
+        <strong>تواصل</strong>
+<a class="chip" href="tel:0555185579">📞 اتصال سريع</a>
+
+<a class="chip chip-whatsapp"
+   href="https://wa.me/966554884260"
+   target="_blank"
+   rel="noopener">
+   💬 واتساب
+</a>
+
+        <span class="muted">الرياض — تغطية المملكة</span>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© <span id="year"></span> أبو محمد — جميع الحقوق محفوظة</span>
+        <span class="muted">اتصل نصل</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Floating actions -->
+<div class="float-actions">
+  <a class="fab fab-wa" data-wa href="#" target="_blank" rel="noopener" aria-label="واتساب">
+    <img src="assets/img/whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <a class="fab fab-call" data-phone href="#" aria-label="اتصال">
+    <img src="assets/img/call.png" alt="Call" />
+  </a>
+</div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
